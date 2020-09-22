@@ -1,4 +1,4 @@
 git:
 	git add .
-	git commit -m "REST API"
+	git commit -m "Quiz Up Js"
 	git push origin master
