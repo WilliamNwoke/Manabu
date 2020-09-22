@@ -1,4 +1,4 @@
 git:
 	git add .
-	git commit -m "A codecademy project for a friend"
+	git commit -m "REST API"
 	git push origin master
