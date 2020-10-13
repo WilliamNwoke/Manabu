@@ -1,14 +1,15 @@
 <template>
-  <div id="app"></div>
+  <div id="app" class="container-xl p-8">
+    <FeedReader />
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import FeedReader from "./components/feed-reader/index.vue";
 
 export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
+  name: "app",
+
+  components: { FeedReader },
 };
 </script>
